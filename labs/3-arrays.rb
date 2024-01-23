@@ -15,3 +15,28 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+# create my list
+my_list = ["milk", "eggs", "bacon", "beer"]
+
+# create my friend's list
+friend_list = ["beer", "kale", "beans", "tofu"]
+
+# create our list
+our_shopping_list = my_list + friend_list
+
+# remove non-unique items
+unique_list = our_shopping_list.uniq
+#puts unique_list
+
+# write our shopping list to screen, alphabetically
+sorted_list = unique_list.sort
+
+# prepend with buy
+puts "Buy #{sorted_list [0]}"
+puts "Buy #{sorted_list [1]}"
+puts "Buy #{sorted_list [2]}"
+puts "Buy #{sorted_list [3]}"
+puts "Buy #{sorted_list [4]}"
+puts "Buy #{sorted_list [5]}"
+puts "Buy #{sorted_list [6]}"

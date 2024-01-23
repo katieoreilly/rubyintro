@@ -8,4 +8,30 @@
 # end
 
 # Loop through tacos
-# tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+
+tacos = ["pork", "veggie", "carnitas", "shrimp", "beef", "chicken"]
+
+for taco in tacos
+    puts "Eat #{taco} tacos!"
+end
+
+# index = 0
+
+# #start loop
+# loop do
+
+# #break the loop if the number of elements is the same as the index
+#     if tacos.length == index
+#         break
+#     end
+
+# # assign a variable to each taco
+# taco = tacos[index]
+
+# # print the output
+#  puts "Eat #{taco} tacos!"
+
+#  # increment the index
+# index = index +1
+
+# end
