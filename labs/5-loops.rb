@@ -22,3 +22,9 @@ suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 # You will want to look at the documentation for Arrays: https://ruby-doc.org/core-2.7.0/Array.html
 
 # need two loops
+
+for rank in ranks
+    for suit in suits
+        puts "#{rank} of #{suit}"
+    end
+end
